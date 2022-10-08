@@ -11,6 +11,7 @@ public class Coche {
     }
 
     void agregarPuerta(int cantidad) {
+        System.out.println("Se agrego una puerta al coche");
         this.numeroPuertas = this.numeroPuertas + cantidad;
     }
 }
